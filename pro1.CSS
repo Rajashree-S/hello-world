@@ -1,0 +1,40 @@
+<html>
+<head>
+<title> dynamic fonts </title>
+<style type = "text/css">
+.regtext { font : 16pt 'Times new Roman'}
+.wordtext { color : blue; }
+.regtext1 { font : 16pt 'arial' }
+.wordtext1 { color : green; }
+.regtext2 { font : 16pt 'Roman' }
+.wordtext2 { color : red; }
+</style>
+</head>
+<body>
+<p class = "regtext" >
+My apartment name is 
+<span class = "wordtext";
+onmouseover = "this.style.color = 'red'; this.style.font = 'italic 18pt Times new Roman';"
+onmouseout = "this.style.color = 'violet'; this.style.font = 'italic 18pt Times new Roman';">
+Golden Grands
+</span>
+</p>
+<p class = "regtext1" >
+It is located at 
+<span class = "wordtext1";
+onmouseover = "this.style.color = 'orange' ; this.style.font = 'bold 18pt Verdana';"
+onmouseout = "this.style.color = 'brown' ; this.style.font = 'italic 18pt Constantia';">
+Yeshwanthpur
+</span>
+NH4 road, Bangalore - 23.
+</p>
+<p class = "regtext2" >
+and it has 3 bedrooms, 1 living room, 1 kitchen
+<span class = "wordtext2"; onmouseover = "this.style.color = 'yellow';
+this.style.font = 'italic 18pt NSimsun';" onmouseout = "this.style.color = 'blue';
+this.style.font = 'italic 18pt NSimSun';">
+1 club house
+</span>
+with a beautiful garden
+</p>
+</body>
